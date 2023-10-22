@@ -1,0 +1,107 @@
+<html>
+    <head> 
+    <h1>   <tittle>ONLINE VOTING SYSTEM </tittle> </h1> 
+        
+<style>
+ body{
+    text-align: center;
+    background-color: #ffeaa7;
+}
+
+#header{
+    padding:10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#dropbox{
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#login{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #EAB543;
+}
+
+#Register{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #EAB543;
+    margin-top:10px;
+    
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #EAB543;
+}
+
+select{
+    padding: 5px;
+    border-radius:2.5px;
+    border:2px solid black;
+    /* border: 2px solid black; */
+}
+
+          </style>
+    </head>
+
+    <body>
+       <!-- only to show inline attribute -->
+        <style>
+            #image {
+             padding:10px;
+             border-radius:5px;
+             border:2px solid black; 
+             width:30%;      
+            }
+
+            #Role{
+             padding:10px;
+             border-radius:5px;
+             border:2px solid black; 
+             width:30%;
+            }
+        </style>
+        <hr>
+        <br>
+        <h3>REGISTRATION</h3>
+        <br>
+
+        <form action="#">
+            <input type="text" Name="text" placeholder="Enter Name" spellcheck="false">
+            <input type="text" Name="text" placeholder="Enter E-mail ID" spellcheck="false"><br> <br>
+             College Code: <button> SIGCE-403 </button>
+            <input type="text" Name="text" placeholder="Enter College Name" spellcheck="false"><br> <br>
+            <input type="text" Name="text" placeholder="Password" spellcheck="false"> 
+            <input type="text" Name="text" placeholder="Confirm Password" spellcheck="false"><br> <br>
+    
+         <center>             <!-- inline centre attribute is for only one div  -->
+            <div id="image"> 
+                Upload Logo:<input type="file" Name="Photo">
+            </div>
+            <br> 
+            <div id="Role">
+            Select Role:  <select Name="Role">
+                <option value="1">Select </option>
+                <option value="2">Voter</option>
+                <option value="3">Candidate</option>
+            </select>
+        </div>
+         </center>
+            <br>
+            <button > Register</button><br> <br>
+            <!-- this link attribute is for to link registration page to login  -->
+            Already User? <a href="C:\Users\Lenovo\Desktop\shweta\Mini Project\Routes\index.html">Login here</a>
+        </form>
+    </body>
+</html>
